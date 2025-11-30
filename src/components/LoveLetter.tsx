@@ -2,22 +2,29 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { RotateCcw, ArrowRight } from "lucide-react";
 
-const loveMessage = `My Dearest Love,
+const loveMessage = `My Dearest Sonai,
 
-Happy Birthday to the most amazing person in my life! 🎂
+Many Many happy returns of the day to the most amazing person in my life! 🎂
 
-Every moment with you feels like a dream come true. Your smile brightens my darkest days, and your laughter is the sweetest melody I've ever heard.
+Pratita muhurto tor sathe jeno swapner kate amr, Tor moto ekjon supportive partner ami peyechi setar jonno satti ami khub lucky, sarajibon eivabei amr pase thakis.
 
-You make me want to be a better person every single day. The way you care for others, your kindness, your beautiful soul - it all inspires me beyond words.
+Vagoban er kache etay prarthona kori jate jiboner sab swapno tui puron korte paris, Satti tui kache thakle ekta jeno aladai anubhuti hoi sab dukho kashto sab kichu jeno vule jay, satti i tor modhe jeno ekta alada jadoo ache. Toke peye ami satti i khub lucky. Sesh e ektay katha bolbo Kokhono chere jas na toke chara amr life satti i asompurno. 
 
-Today, I want you to know that you are loved more than you could ever imagine. You deserve all the happiness in the world, and I promise to do everything I can to make you smile every single day.
+Onek valo thak, onek sukhi thak, onek boro ho, jiboner sab swapno puron kor, baba mayer pratita swapno puron kor.
+baba mayer mukh ujjal korte paris jate etay thakur er kache prarthana kori.
 
-Thank you for being YOU. Thank you for being mine.
+tor valo kharap sab kichutey amk tor pase pabi, ekta jinis sab samoy mathay rakhbi ar keu tor pase thakuk ar na thakuk ami achi tor pase chilam, achi ar thakbo forever.
 
-I love you to the moon and back, infinity times infinity.
+Ar kichu mone porche na.
+
+onek onek valobasa roilo, I love you so so so so much 💖.
+
+Thank you for being a part of my life.
+
+Happy Birthday to you bubu 💖.
 
 Forever yours,
-Your loving partner 💖`;
+Your Babai 💖`;
 
 interface LoveLetterProps {
   onContinue?: () => void;
